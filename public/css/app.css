@@ -7,3 +7,19 @@ body {
 h1, h2, h2, h4, h5, h6 {
     font-weight: 700;
 }
+a:link,a:visited {
+    color: blue;
+    text-decoration: none;
+}
+nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    background-color: #eee;
+    border-radius: 0.5rem;
+}
+
+nav a:hover, .nav-item-highlighted {
+    background-color: #aaa;
+    color: darkblue;
+}
